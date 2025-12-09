@@ -4,7 +4,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, KeyboardBu
 async def get_sub_keyboard() -> InlineKeyboardMarkup:
     keyboard = InlineKeyboardMarkup(
         inline_keyboard=[
-            [InlineKeyboardButton(text='🪐Наш канал', url='https://t.me/GalaxyStarNews')],
+            [InlineKeyboardButton(text='🎁Наш канал', url='https://t.me/ggift_hubb')],
         ]
     )
     return keyboard

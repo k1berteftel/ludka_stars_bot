@@ -14,7 +14,7 @@ config: Config = load_config()
 logger = logging.getLogger(__name__)
 
 
-channel_id = -1003029757928
+channel_id = -1003029303501
 
 
 class RemindMiddleware(BaseMiddleware):
