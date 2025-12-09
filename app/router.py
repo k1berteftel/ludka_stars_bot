@@ -21,8 +21,7 @@ router = APIRouter()
 
 
 @router.post("/payment")
-async def ping(response: Request):#, us_userId: str | int = Form(...), CUR_ID: str | int = Form(...), us_appId: str | int = Form(...)):
-    return 'OK'
+async def ping(response: Request, us_userId: str | int = Form(...), CUR_ID: str | int = Form(...), us_appId: str | int = Form(...)):
     print(response.__dict__)
     user_id = int(us_userId)
     session: DataInteraction = response.app.state.session
