@@ -164,4 +164,4 @@ async def check_user_premium(username: str, months: int):
 
 
 #print(asyncio.run(get_stars_price(50)))
-print(asyncio.run(transfer_stars('xcgan', 50)))
+#print(asyncio.run(transfer_stars('xcgan', 50)))
