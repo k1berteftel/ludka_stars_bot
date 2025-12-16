@@ -23,7 +23,7 @@ user_dialog = Dialog(
         ),
         Column(
             SwitchTo(Const('💱Курс'), id='rate_menu_switcher', state=startSG.rate_menu),
-            Url(Const('🛠Тех. поддержка'), id='help_url', url=Const('https://t.me/xcgan')),
+            Url(Const('🛠Тех. поддержка'), id='help_url', url=Const('https://t.me/CyberStars_Support')),
         ),
         Start(Const('Админ панель'), id='admin', state=adminSG.start, when='admin'),
         getter=getters.start_getter,

@@ -71,7 +71,7 @@ async def deeplink_menu_getter(dialog_manager: DialogManager, **kwargs):
     links = await session.get_deeplinks()
     text = ''
     for link in links:
-        text += f'https://t.me/GalaxyStoreStarBot?start={link.link}: {link.entry}\n'  # Получить ссылку на бота и поменять
+        text += f'https://t.me/StarsCyber_bot?start={link.link}: {link.entry}\n'  # Получить ссылку на бота и поменять
     return {'links': text}
 
 

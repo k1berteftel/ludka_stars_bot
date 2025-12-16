@@ -157,6 +157,9 @@ async def _get_usdt_rub() -> float:
     return float(rub)
 
 
+#print(asyncio.run(_get_usdt_rub()))
+
+
 async def _get_ton_usdt() -> float:
     url = 'https://api.coingecko.com/api/v3/coins/the-open-network'
     async with ClientSession() as session:
